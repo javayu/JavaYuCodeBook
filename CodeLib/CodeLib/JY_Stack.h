@@ -61,6 +61,7 @@ namespace CodeLib{
 			T * newVals = new T[capacity];
 			for(size_t i=0; i<length; i++)
 				newVals[i] = vals[i];
+			delete[] vals;
 			vals = newVals;
 		}
 
