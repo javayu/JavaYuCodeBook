@@ -11,3 +11,5 @@
 #include "CppUnitTest.h"
 
 // TODO: reference additional headers your program requires here
+#include "JY_LinkedList.h"
+#include "JY_Stack.h"
