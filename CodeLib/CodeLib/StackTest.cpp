@@ -44,7 +44,6 @@ namespace CodeLib
 		{
 			for( int i=0; i<15; i++)
 				a.push(i);
-			cout<<a.capacity<<endl;
 			Assert::AreEqual((int)a.capacity, 20);
 			a.clear();
 		}
